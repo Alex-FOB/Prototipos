@@ -1,0 +1,12 @@
+{% extends "base_template2.html" %}
+{% block title %}Ranking de Recetas{% endblock %}
+{% block content %}
+<body>
+    <h1>Sancho Panza</h1>
+    <hr/>
+    <h2>Recetas por tiempo de elaboración</h2>
+    <form action = "{{ url_for('consultar_tiempo_elaboracion') }}" method = "post" class = "container">
+        
+    </form>
+</body>
+{% endblock %}
